@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutTitle"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/header_tab_view_height"
+    android:background="#8a35e0"
+    android:gravity="bottom"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/layoutTitleLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtNumberLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtTitleLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            tools:text="电话" />
+
+        <View
+            android:id="@+id/viewTitleLeft"
+            android:layout_width="34dp"
+            android:layout_height="3dp"
+            android:background="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutTitleRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtNumberRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#ffc9aef0"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtTitleRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ffc9aef0"
+            android:textSize="14sp"
+            tools:text="信息" />
+
+        <View
+            android:id="@+id/viewTitleRight"
+            android:layout_width="34dp"
+            android:layout_height="3dp"
+            android:background="@android:color/white"
+            android:visibility="invisible" />
+    </LinearLayout>
+</LinearLayout>
+
+
+
