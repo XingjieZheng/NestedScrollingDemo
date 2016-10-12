@@ -1,10 +1,7 @@
 # NestedScrollingDemo
 Android NestedScrolling
 ### 效果显示如下
-![Alt text](./NestedScrollingDemoPreview.gif)
-
-
-
+![image](https://github.com/XingjieZheng/NestedScrollingDemo/blob/master/assets/NestedScrollingDemoPreview.gif)
 
 
 该工程是通过使用 NestedScorllingParent 嵌套 ListView 实现滑动动画功能，如下为项目要点分析
