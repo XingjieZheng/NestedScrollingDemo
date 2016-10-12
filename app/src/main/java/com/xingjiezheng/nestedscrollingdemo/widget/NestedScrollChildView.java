@@ -96,7 +96,7 @@ public class NestedScrollChildView extends ListView implements NestedScrollingCh
 
     @Override
     public boolean onTouchEvent(MotionEvent e) {
-        if (!isVersionOver19()) {
+        if (!isVersionOver20()) {
             final MotionEvent vtev = MotionEvent.obtain(e);
             final int action = MotionEventCompat.getActionMasked(e);
             final int actionIndex = MotionEventCompat.getActionIndex(e);
@@ -164,7 +164,7 @@ public class NestedScrollChildView extends ListView implements NestedScrollingCh
         return super.onTouchEvent(e);
     }
 
-    private boolean isVersionOver19() {
+    private boolean isVersionOver20() {
         return Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP;
     }
 
