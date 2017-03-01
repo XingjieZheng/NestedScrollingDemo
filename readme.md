@@ -26,7 +26,7 @@ private void scrollIfNeeded(int x, int y, MotionEvent vtev) {
         ···
 }
 ```
-等等方法。而Android5.0以下的A不是ListView则没有这个，所以在NestedScrollChildView中的onTouchEvent中添加NestedSrolling机制，如下
+等等方法。而Android5.0以下的AbsListView则没有这个，所以在NestedScrollChildView中的onTouchEvent中添加NestedSrolling机制，如下
 ```java
 @Override
     public boolean onTouchEvent(MotionEvent e) {
